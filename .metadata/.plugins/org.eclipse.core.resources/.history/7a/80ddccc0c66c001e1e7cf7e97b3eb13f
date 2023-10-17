@@ -1,0 +1,10 @@
+package control;
+
+public class DoWhileTest2 {
+
+	public static void main(String[] args) {
+		int dice1, dice2;
+		
+	}
+
+}

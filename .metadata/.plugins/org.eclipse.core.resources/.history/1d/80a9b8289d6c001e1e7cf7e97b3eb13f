@@ -1,0 +1,10 @@
+package basic;
+
+public class OpTest14 {
+	public static void main(String[] args) {
+		// 1~6사이의 난수 발생
+		int dice = (int)(Math.random()*6);
+		System.out.println(dice);
+		
+	}
+}

@@ -1,0 +1,16 @@
+package basic;
+
+public class PrimitiveTypeTest {
+
+	public static void main(String[] args) {
+		boolean b = true; // 오른쪽 값이 왼쪽의 값을 할당한다 
+		System.out.println(b);
+		
+		byte b2 = 127; // 128 error 발생
+		System.out.println(b2);
+		
+		int i = 2147483647 + 1;
+		System.out.println(i);
+	}
+
+}

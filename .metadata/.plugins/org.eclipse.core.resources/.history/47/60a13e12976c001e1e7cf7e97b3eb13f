@@ -1,0 +1,10 @@
+package basic;
+
+public class OpTest11 {
+	public static void main(String[] args) {
+		int n = 23;
+		
+		// n이 양수인지 음수인지 판별
+		System.out.println(n >= 0 ? "양수" : "음수");		
+	}
+}

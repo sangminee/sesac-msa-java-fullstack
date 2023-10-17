@@ -1,0 +1,13 @@
+package basic;
+
+public class OpTest6 {
+
+	public static void main(String[] args) {
+		double seed_money = 1_000_000;
+		seed_money = seed_money + (seed_money * 0.4);
+		seed_money = seed_money - (seed_money * 0.3);
+		
+		System.out.println(seed_money);
+	}
+
+}

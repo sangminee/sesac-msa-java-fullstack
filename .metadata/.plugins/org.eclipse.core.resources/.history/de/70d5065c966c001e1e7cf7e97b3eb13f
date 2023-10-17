@@ -1,0 +1,9 @@
+package basic;
+
+public class OpTest11 {
+	public static void main(String[] args) {
+		int n = 1; 
+		System.out.println(n == 1 ? "남자" : "여자");
+		
+	}
+}

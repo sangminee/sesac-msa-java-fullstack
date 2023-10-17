@@ -1,0 +1,13 @@
+package basic;
+
+public class OpTest14 {
+	public static void main(String[] args) {
+		// 1~6사이의 난수 발생
+		System.out.println((int)(Math.random()*6));
+		System.out.println((int)(Math.random()*6));
+		System.out.println((int)(Math.random()*6));
+		
+		// 4~15 사이의 정수 난수 발생 
+		System.out.println((int)(Math.random()*4));
+	}
+}

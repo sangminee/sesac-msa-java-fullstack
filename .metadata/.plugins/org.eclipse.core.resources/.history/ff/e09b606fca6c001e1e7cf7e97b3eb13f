@@ -1,0 +1,39 @@
+package control;
+
+import java.util.Scanner;
+
+/**
+ * 숫자 3개 맞추기 
+ * - strike : 같은 자리, 같은 숫자
+ * - ball : 같은 숫자 
+ * */
+public class NumberGame {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("0~9사이의 중복되지 않은 숫자 3개 입력 (ex. 1 2 3) > ");
+		
+		int s, b, count; 
+		int c1, c2, c3; // 난수 - 서로 다른 값 
+		int h1, h2, h3; // 입력한 숫자 
+		
+		c1 = (int)(Math.random()*10);
+		do {
+			c2 = (int) (Math.random() * 10);
+		} while (c2 == c1);
+		do {
+			c3 = (int) (Math.random() * 10);
+		} while (c3 == c2 || c3 == c1);
+		
+		do{
+			s = b = 0;	
+			h1 = sc.nextInt();
+			h2 = sc.nextInt();
+			h3 = sc.nextInt();
+			
+			
+			
+		}while(s != 3);
+	}
+
+}
