@@ -1,8 +1,0 @@
-package basic;
-
-public class OpTest11 {
-	public static void main(String[] args) {
-		int n = 23;
-		System.out.println(n >= 0 ? "양수" : "음수");		
-	}
-}

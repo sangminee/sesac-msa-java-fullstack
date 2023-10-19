@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/dv/eclipse/lombok.jar"/>
+	<classpathentry kind="lib" path="C:/dv/MyLibrary/Dice.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

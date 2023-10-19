@@ -1,8 +1,0 @@
-package oop4;
-
-public class Shape {
-	double res; // 부피 
-	void area() {
-		
-	}
-}

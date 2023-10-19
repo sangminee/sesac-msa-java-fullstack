@@ -1,9 +1,0 @@
-package oop2;
-
-public class PointTest {
-
-	public static void main(String[] args) {
-		Point2D pt = new Point2D(); // pt : Point2D를 인스턴스화 
-	}
-
-}
