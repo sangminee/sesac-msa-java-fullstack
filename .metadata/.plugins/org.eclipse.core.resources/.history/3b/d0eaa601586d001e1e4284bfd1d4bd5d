@@ -1,0 +1,14 @@
+package array;
+
+public class ArrayTest2 {
+
+	public static void main(String[] args) {
+		int[][] score = {
+				{100, 90, 80, 70},
+				{90 , 80, 70, 60},
+				{80, 70, 60, 50}
+		};
+		System.out.println("종료");
+	}
+
+}

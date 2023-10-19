@@ -1,0 +1,16 @@
+package oop3;
+
+public class AnimalTest {
+
+	public static void main(String[] args) {
+		Animal a = new Bird();
+		System.out.println(a);
+		
+		Bird b = (Bird) a;
+		System.out.println(b);
+		
+		Condor c = (Condor) b;
+		System.out.println(c);
+	}
+
+}

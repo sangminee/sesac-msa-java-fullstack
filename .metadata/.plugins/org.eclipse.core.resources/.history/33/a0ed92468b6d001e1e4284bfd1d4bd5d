@@ -1,0 +1,17 @@
+package oop3;
+
+public class AnimalTest {
+
+	public static void main(String[] args) {
+		Animal a = new Bird();
+		System.out.println(a);
+		
+		Bird b = (Bird) a;
+		System.out.println(b);
+		
+		// 원래 실체보다 다운 캐스팅하면 안됨 
+		Condor c = (Condor) b;
+		System.out.println(c);
+	}
+
+}

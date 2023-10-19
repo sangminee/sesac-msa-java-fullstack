@@ -1,0 +1,12 @@
+package oop;
+
+public class Point2D {
+	
+	int x;
+	int y;
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

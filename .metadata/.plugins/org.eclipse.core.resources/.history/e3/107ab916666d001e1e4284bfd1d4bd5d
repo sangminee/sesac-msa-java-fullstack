@@ -1,0 +1,16 @@
+package method;
+
+public class MethodTest1 {
+	
+	public static void main(String[] args) {
+		print();
+	}
+
+	private static void print() {
+		System.out.println("---------");
+		System.out.println("이소민");
+		System.out.println("---------");
+		return;
+	}
+	
+}

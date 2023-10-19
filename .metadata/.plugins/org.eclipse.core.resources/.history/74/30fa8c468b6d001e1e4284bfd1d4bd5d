@@ -1,0 +1,9 @@
+package oop3;
+
+public class BlackVulture extends Bird{
+	
+	public String toString() {
+		return "Condor 입니다.";
+	}
+	
+}

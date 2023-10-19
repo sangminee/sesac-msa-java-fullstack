@@ -1,0 +1,9 @@
+package oop3;
+
+public class Condor {
+	
+	public String toString() {
+		return "Animal 입니다.";
+	}
+	
+}

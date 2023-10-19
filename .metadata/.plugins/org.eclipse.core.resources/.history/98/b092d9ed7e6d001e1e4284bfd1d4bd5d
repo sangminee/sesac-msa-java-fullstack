@@ -1,0 +1,13 @@
+package oop;
+
+public class PointTest {
+
+	public static void main(String[] args) {
+		Point2D pt = new Point2D();
+		pt.setX(100);
+		pt.setY(200);
+		System.out.println("x = " + pt.getX());
+		System.out.println("y = " + pt.getY());
+	}
+
+}

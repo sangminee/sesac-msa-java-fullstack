@@ -1,0 +1,13 @@
+package oop2;
+
+public class PointTest {
+
+	public static void main(String[] args) {
+		Point2D pt = new Point3D(); // upcasting : 자동 형변환 (묵시적 형변환) 
+		pt.x = 100;
+		pt.y = 200;
+//		pt.z = 300;
+		
+	}
+
+}
