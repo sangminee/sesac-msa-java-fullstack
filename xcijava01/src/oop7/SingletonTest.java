@@ -1,4 +1,4 @@
-package opp7;
+package oop7;
 
 public class SingletonTest {
 
