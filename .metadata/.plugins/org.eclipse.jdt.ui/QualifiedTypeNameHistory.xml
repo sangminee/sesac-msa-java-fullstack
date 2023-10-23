@@ -7,4 +7,8 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="lombok.Builder"/>
     <fullyQualifiedTypeName name="lombok.Builder.Default"/>
+    <fullyQualifiedTypeName name="nestedClass.A.B"/>
+    <fullyQualifiedTypeName name="innerInterface.A.B"/>
+    <fullyQualifiedTypeName name="innerInterface.Button.OnClickListener"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>
