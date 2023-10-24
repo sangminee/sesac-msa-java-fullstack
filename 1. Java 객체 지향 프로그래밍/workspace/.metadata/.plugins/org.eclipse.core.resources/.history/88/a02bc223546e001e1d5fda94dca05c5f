@@ -1,0 +1,14 @@
+package oop9;
+
+public class TVTest {
+
+	public static void main(String[] args) {
+		HyundaiTV tv = new HyundaiTV();
+		tv.powerOn();
+		tv.channelUp();
+		tv.channelDown();
+		tv.soundUp();
+		tv.powerOff();
+	}
+
+}

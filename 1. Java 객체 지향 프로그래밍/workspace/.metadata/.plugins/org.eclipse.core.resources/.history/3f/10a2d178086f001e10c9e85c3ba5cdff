@@ -1,0 +1,11 @@
+package exception;
+
+class A2{}
+class B2 extends A2{}
+public class UncheckedException {
+
+	public static void main(String[] args) {
+		System.out.println(3/0);
+	}
+
+}

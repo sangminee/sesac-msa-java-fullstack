@@ -1,0 +1,10 @@
+package Thread;
+
+public class ThreadTest0 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

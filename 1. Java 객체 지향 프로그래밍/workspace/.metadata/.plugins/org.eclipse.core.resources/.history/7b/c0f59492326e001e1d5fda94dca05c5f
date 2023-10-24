@@ -1,0 +1,5 @@
+package opp7;
+
+public class Singleton {
+	int score;
+}

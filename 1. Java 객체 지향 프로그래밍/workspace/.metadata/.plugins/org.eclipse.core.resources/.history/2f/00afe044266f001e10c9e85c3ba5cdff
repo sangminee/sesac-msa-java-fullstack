@@ -1,0 +1,26 @@
+package Thread;
+
+// Thread 클래스를 상속해 클래스를 생성한 후 쓰레드 2개 생성
+class SMIFileThread extends Thread {
+
+	@Override
+	public void run() {
+		String[] strArray = {"하나", "둘", "셋", "넷", "다섯"};
+		try {
+			Thread.sleep(10);
+		} catch {
+			(InterruptedException e){}
+		}
+		super.run();
+	}
+	
+}
+
+public class CreateAndStartThread_M1C1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,33 @@
+ package Thread;
+
+class MyDataKeyObject1{
+	synchronized void abc() {
+		for(int i=0; i<3; i++) {
+			System.out.println(i+"sec");
+			try {Thread.sleep(1000);} catch (InterruptedException e) {}
+		}
+	}
+	synchronized void bcd() {
+		for(int i=0; i<3; i++) {
+			System.out.println(i+"sec");
+			try {Thread.sleep(1000);} catch (InterruptedException e) {}
+		}
+	}
+	void cde() {
+		synchronized(this){
+			for(int i=0; i<3; i++) {
+				System.out.println(i+"sec");
+				try {Thread.sleep(1000);} catch (InterruptedException e) {}
+			}
+		}
+	}
+	
+}
+public class KeyObject_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
