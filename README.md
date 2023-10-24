@@ -1,2 +1,7 @@
 # JAVA_BASIC
-[현대 IT&amp;E 교육 과정] 1. Java 객체 지향 프로그래밍 10.16 ~ 10.25
+
+## 교재 
+Do it! 자바 완전 정복
+
+## 정리
+https://good-stone-5c1.notion.site/1-Java-10-16-10-25-88eed853c5a64203b193cd7a5197bd8b?pvs=4
