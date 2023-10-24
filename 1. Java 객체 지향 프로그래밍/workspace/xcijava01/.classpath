@@ -7,6 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/dv/eclipse/lombok.jar"/>
-	<classpathentry kind="lib" path="C:/dv/MyLibrary/Dice.jar"/>
+	<classpathentry kind="lib" path="C:/dv/lecture/1. Java 객체 지향 프로그래밍/MyLibrary/Dice.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
