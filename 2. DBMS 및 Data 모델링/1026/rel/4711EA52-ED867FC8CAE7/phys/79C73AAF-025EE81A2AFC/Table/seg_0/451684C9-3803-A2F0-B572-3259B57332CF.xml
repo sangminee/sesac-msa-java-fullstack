@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="REGIONS" directorySegmentName="seg_0" id="451684C9-3803-A2F0-B572-3259B57332CF">
+<createdBy>mslub</createdBy>
+<createdTime>2023-10-26 05:16:44 UTC</createdTime>
+<ownerDesignName>1026</ownerDesignName>
+<schemaObject>0328DECD-F2D1-FDAB-EA08-6393DDEB33DB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FA0FC63E-703B-118D-4682-8174F493F08B</segment>
+<tableSpace>42D32E6F-9CFF-2F51-FF05-A66D3B1A99A6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_ID" id="A416DBF0-6110-3E12-7365-C81AAE3F8131">
+<createdBy>mslub</createdBy>
+<createdTime>2023-10-26 05:16:44 UTC</createdTime>
+<ownerDesignName>1026</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION_NAME" id="DFA10803-21C2-A866-1E64-8356A9C4EB8B">
+<createdBy>mslub</createdBy>
+<createdTime>2023-10-26 05:16:44 UTC</createdTime>
+<ownerDesignName>1026</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REG_ID_PK" id="3CD467DD-5D3F-3186-4498-85B64B0E8601">
+<createdBy>mslub</createdBy>
+<createdTime>2023-10-26 05:16:44 UTC</createdTime>
+<ownerDesignName>1026</ownerDesignName>
+<schemaObject>0328DECD-F2D1-FDAB-EA08-6393DDEB33DB</schemaObject>
+<segment>88488754-C3F8-33AB-4C35-4EFAC608FCEC</segment>
+<tableSpace>42D32E6F-9CFF-2F51-FF05-A66D3B1A99A6</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REG_ID_PK" id="C1F5DF26-B384-5B9E-51B5-C9ACE49C11AA">
+<createdBy>mslub</createdBy>
+<createdTime>2023-10-26 05:16:47 UTC</createdTime>
+<ownerDesignName>1026</ownerDesignName>
+<segment>88488754-C3F8-33AB-4C35-4EFAC608FCEC</segment>
+<tableSpace>42D32E6F-9CFF-2F51-FF05-A66D3B1A99A6</tableSpace>
+<existingIndex>3CD467DD-5D3F-3186-4498-85B64B0E8601</existingIndex>
+<indexSegment>88488754-C3F8-33AB-4C35-4EFAC608FCEC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

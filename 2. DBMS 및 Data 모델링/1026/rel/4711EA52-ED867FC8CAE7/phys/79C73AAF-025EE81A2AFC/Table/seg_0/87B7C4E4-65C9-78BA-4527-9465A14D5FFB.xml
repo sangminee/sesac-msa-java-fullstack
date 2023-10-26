@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="JOB_GRADES" directorySegmentName="seg_0" id="87B7C4E4-65C9-78BA-4527-9465A14D5FFB">
+<createdBy>mslub</createdBy>
+<createdTime>2023-10-26 05:24:11 UTC</createdTime>
+<ownerDesignName>1026</ownerDesignName>
+<schemaObject>0328DECD-F2D1-FDAB-EA08-6393DDEB33DB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FA0FC63E-703B-118D-4682-8174F493F08B</segment>
+<tableSpace>42D32E6F-9CFF-2F51-FF05-A66D3B1A99A6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOWEST_SAL" id="098CB111-DD3E-BB2C-762E-E6E02C8F9A4F">
+<createdBy>mslub</createdBy>
+<createdTime>2023-10-26 05:24:11 UTC</createdTime>
+<ownerDesignName>1026</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIGHEST_SAL" id="DC462415-CEB5-B1DE-CCEC-B0056F3AFF52">
+<createdBy>mslub</createdBy>
+<createdTime>2023-10-26 05:24:11 UTC</createdTime>
+<ownerDesignName>1026</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRADE_LEVEL" id="FD92298A-519F-9DCA-87B4-0E4906302099">
+<createdBy>mslub</createdBy>
+<createdTime>2023-10-26 05:24:11 UTC</createdTime>
+<ownerDesignName>1026</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>
