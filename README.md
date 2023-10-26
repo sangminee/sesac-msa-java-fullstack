@@ -7,21 +7,19 @@
 
 # 1. Java 객체 지향 프로그래밍
 
-### 10/23/월  
+-  10/23/월  
 15. [쓰레드](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/1.%20Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/note/15_thread.md) 
 16. [제네릭]()
 
-### 10/24/화
+-  10/24/화
 17. [컬렉션 프레임워크](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/1.%20Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/note/17_collection_framework.md)
-<br>
-
 18. [람다식](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/1.%20Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/note/18_lambda.md)
 
-### 10/25/수 
+-  10/25/수 
 19. [자바 입출력](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/1.%20Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/note/19_java_io.md)
 
 # 2. DBMS 및 Data 모델링
  
-### 10/25/수
+-  10/25/수
 1. [데이터베이스 개념과 오라클 설치](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/1_db.md)
 2. [SQL의 기본](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/2_sql.md)
