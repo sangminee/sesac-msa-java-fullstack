@@ -164,9 +164,14 @@ FROM employees;
 ## 6. SQL에 접속하여 사용자 계정 만들기
 
 - SQL 명령어의 유형
+    - DQL : Data Query Language (질의어)
+    - DML : Data Manipulation Language (데이터 조작어) - 데이터 변경 시 사용
+    - DDL : Data Definition Language (데이터 정의어) - 객체 생성 및 변경 시 사용
+    - TCL : Transaction Control Language (트랜잭션 처리어)
+    - DCL : Data Control Language (데이터 제어어)
     
     
-    | 유형 | 명령문 |  |
+    | 유형 | 명령문 | 설명 |
     | --- | --- | --- |
     | DQL | SELECT  | 데이터 검색  |
     | DML | INSERT | 데이터 입력 |

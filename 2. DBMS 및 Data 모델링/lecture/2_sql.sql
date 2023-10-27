@@ -130,3 +130,133 @@ where comm in(80, 100, 200);
 select *
 from emp
 where comm not in(80, 100, 200);
+
+--CONN ACE/1234;
+select concat(last_name, first_name) from employees;
+select last_name || first_name from employees;
+---------------------------------------------------
+
+
+--------------------------
+------ conn tester1
+--------------------------
+-- p. 87
+select * 
+from emp
+where ename like '이%';
+
+select * 
+from emp
+where ename like '%' || '문' || '%';
+
+select *
+from emp
+where ename like '_성%';
+
+-- ORDER BY : 많이 쓰는 것이 좋은 것은 아님 
+-- p. 94
+select ename, sal
+from emp
+order by sal; 
+
+select ename, sal
+from emp
+order by sal desc; 
+
+select empno,ename
+from emp
+order by ename; 
+
+-- p.97
+select hiredate, ename
+from emp
+order by hiredate desc, ename asc;
+
+
+--------------------------
+------ conn ACE
+--------------------------
+-- 1. 
+select last_name, salary, job_id
+from employees
+where salary >= 10000 and job_id like '%MAN%';
+
+-- 2.
+select last_name, salary, job_id
+from employees
+where salary >= 10000 or job_id like '%MAN%';
+
+-- 3.
+select last_name, job_id
+from employees
+where job_id not in ('IT_PROG', 'ST_CLERK', 'SA_REP');
+
+-- 4.
+select last_name, commission_pct
+from employees
+where commission_pct is not null;
+
+-- 5. 
+select last_name, job_id, salary
+from employees
+where job_id in ('ST_CLERK', 'SA_REP');
+
+--------------------------
+------ conn tester1 
+--------------------------
+
+select name from group_star;
+select name from single_star;
+
+select name from group_star
+union
+select name from single_star;
+
+select name from group_star
+intersect
+select name from single_star;
+
+-- 그룹 활동만 하는 가수 출력
+select name from group_star
+minus
+select name from single_star;
+-- 싱글 활동만 하는 가수 출력
+select name from single_star
+minus
+select name from group_star;
+
+--------------------------
+------ conn ace 
+--------------------------
+-- 1. set operator를 이용하여 job ID가 ST_CLERK을 포함하지 않는 부서의 ID를 출력
+select DEPARTMENT_ID from employees
+minus
+select DEPARTMENT_ID from employees where job_id = 'ST_CLERK' order by DEPARTMENT_ID;
+
+-- 2. join 이 필요함 
+select COUNTRY_ID from countries
+minus 
+select COUNTRY_ID from locations; -- departments table로 가서 location_id을 가지로 찾기 
+
+-- 3. 부서가 10, 50 그리고 20의 순서로 부서의 업무리스트를 정렬하고 set operators를 이용하여 job ID와 department ID를 출력
+select JOB_ID , DEPARTMENT_ID , 1 as A_DUMMY from employees where DEPARTMENT_ID = 10
+union 
+select JOB_ID , DEPARTMENT_ID , 2 A_DUMMY from employees where DEPARTMENT_ID = 50
+union 
+select JOB_ID , DEPARTMENT_ID , 3 A_DUMMY from employees where DEPARTMENT_ID = 20
+order by A_DUMMY; -- order by 3; 과 결과 같음 
+
+-- 4. 입사후 현재 업무와 같은 업무를 담당한 적이 있는 사원의 employee ID와 job ID를 출력
+select EMPLOYEE_ID , JOB_ID from employees
+intersect
+select EMPLOYEE_ID , JOB_ID from job_history
+order by EMPLOYEE_ID;
+
+-- 소속된 부서에 상관없이 employees 테이블에 있는 모든 사원의 last name과 부서번호 
+-- 소속된 사원에 상관없이 departments 테이블에 있는 모든 부서와 부서번호 부서 이름
+select last_name, department_id, nvl(null,' ') as department_name
+from employees
+union
+select ' ' as dummy, department_id, department_name
+from departments;
+
