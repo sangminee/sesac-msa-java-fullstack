@@ -9,9 +9,7 @@
 교재 : 📚 Do it! 자바 완전 정복
 
 -  10/23/월  : [쓰레드](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/1.%20Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/note/15_thread.md) | [제네릭](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/1.%20Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/note/16_generic.md#16%EC%9E%A5-%EC%A0%9C%EB%84%A4%EB%A6%AD)
-
 -  10/24/화 : [컬렉션 프레임워크](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/1.%20Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/note/17_collection_framework.md) |  [람다식](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/1.%20Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/note/18_lambda.md)
-
 -  10/25/수 : [자바 입출력](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/1.%20Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/note/19_java_io.md)
 
 ### 2. DBMS 및 Data 모델링 (10.25 ~ )
