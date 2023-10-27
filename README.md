@@ -18,5 +18,5 @@
 
 교재 : 한번에 이해되는 Oracle SQL & PL/SQ
 
--  10/26/목 : [1. 데이터베이스 개념과 오라클 설치](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/1_db.md)  |  [2. SQL의 기본](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/2_sql.md)
-- 10/27/금 : [3. 오라클 주요 함수]() | [4. 그룹함수]()
+-  10/26/목 : [데이터베이스 개념과 오라클 설치](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/1_db.md)  |  [SQL의 기본](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/2_sql.md)
+- 10/27/금 : [오라클 주요 함수](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/3_oracle_main_functions.md) | [그룹함수](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/4_group_function.md)
