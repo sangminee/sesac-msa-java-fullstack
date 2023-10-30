@@ -1,7 +1,0 @@
-package oop8;
-
-@Builder
-public class Human {
-	private String name;
-	private String birth;
-}
