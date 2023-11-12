@@ -1,3 +1,5 @@
+
+
 drop table dept01;
 create table dept01
 as

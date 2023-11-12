@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      display: inline-block;
+    }
+
+    .content1 {
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    let i, j; 
+    
+    document.write(`<div class="container">`);
+    for(i=2; i<=5; i++){
+      document.write(`<div class="content1">`);
+      for(j=1; j<=9; j++){
+        document.write(`${i} x ${j} = ${i*j} <br>`);
+      }
+      document.write(`</div>`);
+    }
+    document.write(`</div>`);
+    
+
+    document.write(`<div class="container">`);
+    for(i=6; i<=9; i++){
+      document.write(`<div class="content1">`);
+      for(j=1; j<=9; j++){
+        document.write(`${i} x ${j} = ${i*j} <br>`);
+      }
+      document.write(`</div>`);
+    }
+    document.write(`</div>`);
+  </script>
+</body>
+</html>

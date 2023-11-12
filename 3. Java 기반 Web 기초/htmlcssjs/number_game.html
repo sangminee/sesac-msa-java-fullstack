@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const x = parseInt(Math.random()*100 + 1);
+    
+    let count = parseInt(0);
+    do{
+      let you = parseInt(prompt("1~100 사이의 정수 입력해주세요"));
+      count++;
+      if(you > x) alert("Down!");
+      else if(you < x) alert("Up!");
+      else if(you === x) break; 
+    }while(true)
+
+    alert(`축하합니다.${count}번 만에 맞추셨습니다.`);
+  </script>
+</body>
+</html>

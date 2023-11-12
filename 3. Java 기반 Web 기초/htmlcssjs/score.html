@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let scope =
+      [
+        ['이름', '국어', '영어', '수학', '철학', '총점', '평균'],
+        ['신해철', 100, 90, 80, 70],
+        ['유재하', 90, 80, 70, 60],
+        ['서태지', 80, 70, 60, 50]
+      ];
+
+    document.write(`<table> <caption>점수</caption>`);
+    for (let i = 0; i < scope.length; i++) {
+      document.write(`<tr>`);
+      let sum = 0;
+      for (let j = 0; j < scope[i].length; j++) {
+        document.write(`<td> ${scope[i][j]} </td>`);
+        if(typeof scope[i][j] ==="number"){
+          sum += scope[i][j];
+        }
+      }
+
+      if(typeof scope[i][5] === 'undefined'){
+        scope[i].push(parseInt(sum), parseInt(sum/4));
+        document.write(`
+          <td> ${scope[i][5]} </td>
+          <td> ${scope[i][6]} </td>
+        </tr>
+      `);
+      }
+    }
+    
+    document.write(`
+     </table>`);
+
+     ////////////////////////////////////////////////////
+     let myarray = new Array(2);
+     let a =[
+       [[2,3,4], [2,3,4]]
+       ,[[2,3,4], [2,3,4]]
+     ];
+
+     let a1 = [[1,2,3], [1,2,3]];
+
+     a.push(a1);
+
+     /* for(let s=0; s<3; s++){
+      for(let b=0; b<3; b++){
+        for(let c=0; c<3; c++){
+          document.write( a[s][b][c] + ' ');
+        }
+        
+      }
+      document.write('<br/>');
+    } */
+
+    document.write('<hr/>')
+    let ar = new Array([1,2,3],[4,5,6]);
+    for(let k=0; k<ar.length; k++) {
+      document.write(ar[k] + ',');
+    }
+    document.write('<br/>');
+    ar.push([1,2,3]);
+    ar.push([4,5,6]);
+    
+    for(let i=0; i<ar.length; i++) {
+      for(let j=0; j<ar[i].length; j++) {
+        document.write(ar[i][j]+",");
+      }
+    }
+  
+
+    console.log(ar);
+  </script>
+</body>
+
+</html>
