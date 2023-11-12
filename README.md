@@ -20,16 +20,16 @@
 - 10/27/금 : [오라클 주요 함수](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/3_oracle_main_functions.md) | [그룹함수](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/4_group_function.md)
 - 10/30/월 : [조인](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/10_join.md) | [서브쿼리](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/11_sub_query.md)
 - 10/31/화 : [DDL](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/7_ddl.md) | [DML](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/8_dml.md) | [Constraints](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/9_constraints.md) 
-- 11/01/수 : [View]() 
+- 11/01/수 : [View](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/12_view.md) 
 - 11/02/목 : 시퀀스와인덱스 | 사용자권한
-- 11/03/금 : [Rollup & Cude | 계층형 쿼리 (Hierachical Query) | GROUPING SETS | with 절]()
+- 11/03/금 : [Rollup & Cude | 계층형 쿼리 (Hierachical Query) | GROUPING SETS | with 절](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/2.%20DBMS%20%EB%B0%8F%20Data%20%EB%AA%A8%EB%8D%B8%EB%A7%81/note/1103.md)
 
 ### 3. Java 기반 Web 기초 (11.06 ~ 11.10)
 
 교재 : 📚 Do it! HTML+CSS+자바스크립트 웹 표준의 정석
 
-- 11/6/월 : [HTML]()
-- 11/7/화 : [CSS1]()
-- 11/8/수 : [CSS2]()
-- 11/9/목 : [JavaScript1 - 기본 문법, 함수와 이벤트]()
-- 11/10/금 : [JavaScript2 - 객체, 문서 객체 모델(DOM)]()
+- 11/6/월 : [HTML](https://github.com/sangminee/sesac-msa-java-fullstack/blob/main/3.%20Java%20%EA%B8%B0%EB%B0%98%20Web%20%EA%B8%B0%EC%B4%88/note/html.md)
+- 11/7/화 : CSS1
+- 11/8/수 : CSS2
+- 11/9/목 : JavaScript1 - 기본 문법, 함수와 이벤트
+- 11/10/금 : JavaScript2 - 객체, 문서 객체 모델(DOM)
