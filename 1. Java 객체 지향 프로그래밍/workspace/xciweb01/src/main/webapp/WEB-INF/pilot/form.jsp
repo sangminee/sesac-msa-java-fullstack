@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>top</h1>
+
+<form action="process" method="post">
+난 누구지? 내 이름을 불러봐~!!!<br/>
+<input type="text" name="name" />
+<button type="submit">확인</button>
+</form>
+
 </body>
 </html>

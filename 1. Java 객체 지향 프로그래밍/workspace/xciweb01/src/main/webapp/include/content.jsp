@@ -8,6 +8,5 @@
 </head>
 <body>
 <h1>content</h1>
-<%=msg%>
 </body>
 </html>

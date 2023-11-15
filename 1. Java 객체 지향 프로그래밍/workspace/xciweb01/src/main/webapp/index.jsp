@@ -7,9 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Hello Servlet/JSP</h1>
-<%
-	out.println("Hello World");
-%>
+<h1>mvc</h1>
+<a href="/xciweb01/pilot/form">form</a>
 </body>
 </html>
