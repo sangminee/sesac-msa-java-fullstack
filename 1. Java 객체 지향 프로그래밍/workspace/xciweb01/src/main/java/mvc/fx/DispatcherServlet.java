@@ -1,7 +1,6 @@
 package mvc.fx;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -14,7 +13,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = { "/pilot/*" }, loadOnStartup = 10)
+@WebServlet(
+		urlPatterns = { 
+				"/pilot/*",
+				"/game/*",
+				"/article/*"
+		}, 
+		loadOnStartup = 10)
 public class DispatcherServlet extends HttpServlet {
 
 	private Map<String, AbstractController> controllerMap = new HashMap<>();
@@ -23,14 +28,9 @@ public class DispatcherServlet extends HttpServlet {
 	public void init() throws ServletException {
 
 		Properties prop = new Properties();
+
 		try {
-			System.out.println("  dfddfasfasdfsd"+new FileInputStream(this.getClass().getResource("dispatcher-servlet.properties").getPath()));
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		try {
-			prop.load(new FileInputStream(this.getClass().getResource("dispatcher-servlet.properties").getPath()));
+			prop.load(new FileInputStream("c:/dev/dispatcher-servlet.properties"));
 			for (Object oKey : prop.keySet()) {
 				String key = ((String) oKey).trim(); // 공백처리
 				Class<?> className = null;
