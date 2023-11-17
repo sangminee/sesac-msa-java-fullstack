@@ -8,9 +8,10 @@
 </head>
 <body>
 
-<%
-	response.sendRedirect("article/list");
-%>
+<script type="text/javascript">
+alert('${msg}');
+location.href='${url}';
+</script>
 
 </body>
 </html>
