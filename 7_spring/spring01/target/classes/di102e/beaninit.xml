@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="fileOutputter" class="net.developia.spring01.di102e.FileOutputterImpl">
+<!--        <property name="name" value="outputter2.txt"/>-->
+        <constructor-arg value="outputter2.txt"/>
+    </bean>
+
+
+    <bean id="messageBean" class="net.developia.spring01.di102e.MessageBeanImpl">
+<!--        <property name="name" value="이상원숭2"/>-->
+<!--        <property name="greeting" value="안녕하이소"/>-->
+<!--        <property name="fileOutputter" ref="fileOutputter"/>-->
+        <constructor-arg value="이상원"/>
+        <constructor-arg value="안녕하이소"/>
+        <constructor-arg ref="fileOutputter"/>
+    </bean>
+
+</beans>

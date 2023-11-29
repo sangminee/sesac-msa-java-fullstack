@@ -88,7 +88,7 @@ END;
 /
 select * from products;
 
---업데이트 예시
+--update 예시
 begin
     update_product_price(1, 12);
     commit;

@@ -35,8 +35,16 @@
 - 11/10/금 : JavaScript2 - 객체, 문서 객체 모델(DOM)
 
 ### 4. JSP
-- 11/13/월, 11/14/화, 11/15/수 : 
+- 11/13/월 : Servlet
+- 11/14/화 : JSP, JSTL
+- 11/15/수 : [jsp 미니 프로젝트](https://github.com/sangminee/sesac-jsp-example-project)
 
 ### 5. PL/SQL
-- 11/16/목 : 
+- 11/16/목 : [PL/SQL 개념 | 선택문 | 반복문 | 함수]() | [CRUD - ChatGPT를 활용해 PL/SQL 패키지 만들기]()
 - 11/17/금 :
+
+### 6. React
+
+교재 : 📚 생활코딩! React 리액트 프로그래밍
+
+- 11/20/월 : 
